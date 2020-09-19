@@ -1,6 +1,7 @@
 ### A Hello World gRPC service
 This is a simple template "Hello World" gRPC C++ service. It's based on the gRPC "Hello World" service from Google, but adds sanitizers and other static analysis tools that any sane C++ developer should use.
 
+Some checks that are performed are:
 * clang-tidy
 * clang-format
 * asan
