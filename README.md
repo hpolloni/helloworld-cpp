@@ -1,4 +1,4 @@
-### A Hello World gRPC service
+### A "professional" Hello World gRPC service
 This is a simple template "Hello World" gRPC C++ service. It's based on the gRPC "Hello World" service from Google, but adds sanitizers and other static analysis tools that any sane C++ developer should use.
 
 Some checks that are performed are:
@@ -39,6 +39,10 @@ Enabling address and ub sanitizers is enabled by using a cmake build type.
 ```
 $ cmake .. -DCMAKE_TOOLCHAIN_FILE=[vcpkg path]/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=SANITIZER
 ```
+
+### TODO
+* Unit tests
+* Client integration tests
 
 ### FAQ
 #### Why?
